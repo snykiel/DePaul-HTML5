@@ -1,0 +1,157 @@
+body {
+    margin-top: -100px;
+    overflow-x: hidden;
+}
+
+.navbar {
+    opacity: 0.8;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+     background-color: transparent;
+     color: white;
+     right: 100%;
+ }
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 40px;
+    height: 20px;
+    border-style: none;
+    background-color: transparent;
+}
+
+
+/* This centers Chicago */
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.navbar-toggle {
+    z-index:3;
+}
+
+/* This for Centers navbar items */
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* This spaces navbar items */
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+/* This set the color of the dash */
+.sidebar-selected {
+    color: red;
+}
+
+.sidebar-nav > .sidebar-brand div {
+    color: white;
+}
+
+.marquee-hide {
+    display:none;
+}
+
+.image {
+    z-index: -1;
+    max-width: 100%;
+    height: 100%;
+}
+
+.container-three-column {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 2000 px;
+}
+
+h3 {
+   font-family: 'Kaushan Script', cursive;
+   color: #337ab7;
+}
+
+.title { 
+   position: absolute;
+   top: 35%; 
+   left: 5%; 
+   width: 100%; 
+   font-size: 50px;
+   font-weight: bold;
+   color: yellow;
+}
+
+.subtitle { 
+   position: absolute;
+   top: 55%; 
+   left: 5%; 
+   width: 100%; 
+   color: white;
+}
+
+.red-dividing-line {
+   position: absolute;
+   top: 50%; 
+   left: 7%; 
+}
+
+.scroll-down { 
+   position: absolute;
+   top: 90%; 
+   left: 45%; 
+   width: 100%; 
+   color: blue;
+}
+
+
+@media (max-width: 767px) {
+    .marquee {
+        display:none;
+    }
+
+    /* This right justifies phone window menu */
+    .navbar-nav {
+      width: 100%;
+      text-align: right;
+      margin-left: 5px;
+      margin-right: 5px;
+
+    }
+
+    /* This removes the navbar margins so that it displays right in mobile */
+    .navbar-nav > li {
+        float: none;
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+
