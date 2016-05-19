@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
 <head>
     <meta name="generator" content=
     "HTML Tidy for HTML5 for Linux version 5.1.33">
@@ -12,8 +11,8 @@
     <meta name="author" content="Steve Nykiel">
     <link rel="icon" href="ico/favicon.ico">
     <title>City of Chicago</title>
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script'
-    rel='stylesheet' type='text/css'><!-- Bootstrap Core CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet"><!-- Custom CSS -->
     <link href="css/simple-sidebar-right.css" rel="stylesheet">
     <link href="css/3-col-portfolio.css" rel="stylesheet">
@@ -27,188 +26,145 @@
 </head>
 <body>
     <!-- Navigation -->
+
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
+
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed"
-                data-toggle="collapse" data-target="#navbar"
-                aria-expanded="false" aria-controls=
-                "navbar"><span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar">Menu</span></button> <a class=
-                "navbar-brand" id="chicago" style=
-                "color:red; text-decoration:none" href=
-                "index.html">Chicago</a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar">Menu</span>
+               </button>
+               <a class="navbar-brand" id="chicago" style="color:red; text-decoration:none" href="index.html">Chicago</a>
             </div>
+
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href=
-                        "http://www.cityofchicago.org/city/en/about.html">
-                        About</a>
+                        <a href="http://www.cityofchicago.org/city/en/about.html">About</a>
                     </li>
                     <li>
-                        <a href=
-                        "http://www.cityofchicago.org/city/en/svcs/find.html">
-                        Services</a>
+                        <a href="http://www.cityofchicago.org/city/en/svcs/find.html">Services</a>
+                    </li>
+                    <li><!-- empty li element place holder for Chicago--></li>
+                    <li>
+                        <a href="http://www.cityofchicago.org/city/en/chicagogovt.html">Government</a>
                     </li>
                     <li>
-                    <!-- empty li element place holder for Chicago--></li>
-                    <li>
-                        <a href=
-                        "http://www.cityofchicago.org/city/en/chicagogovt.html">
-                        Government</a>
-                    </li>
-                    <li>
-                        <a href=
-                        "http://www.cityofchicago.org/city/en/progs.html">
-                        Programs</a>
+                        <a href="http://www.cityofchicago.org/city/en/progs.html">Programs</a>
                     </li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
-    </nav><!-- Sidebar -->
+    </nav>
+
+    <!-- Sidebar -->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
-                <div id="business" onclick=
-                "return activateBusiness();">
-                    Business
-                </div>
+                <div id="business" onClick="return activateBusiness();">Business</div>
             </li>
             <li class="sidebar-brand">
-                <div id="culture-recreation" href="#!" onclick=
-                "return activateCultureRecreation();">
-                    Culture & Recreation
-                </div>
+                <div id="culture-recreation" href="#" onClick="return activateCultureRecreation();">Culture & Recreation</div>
             </li>
             <li class="sidebar-brand">
-                <div id="environment" href="#!" onclick=
-                "return activateEnvironment();">
-                    Environment
-                </div>
+                <div id="environment" href="#" onClick="return activateEnvironment();">Environment</div>
             </li>
             <li class="sidebar-brand">
-                <div id="housing-development" href="#!" onclick=
-                "return activateHousingDevelopment();">
-                    Housing & Development
-                </div>
+                <div id="housing-development" href="#" onClick="return activateHousingDevelopment();">Housing & Development</div>
             </li>
             <li class="sidebar-brand">
-                <div id="social-services" href="#!" onclick=
-                "return activateSocialServices();">
-                    Social Services
-                </div>
+                <div id="social-services" href="#" onClick="return activateSocialServices();">Social Services</div>
             </li>
             <li class="sidebar-brand">
-                <div id="civic-services" href="#!" onclick=
-                "return activateCivicServices();">
-                    Civic Services
-                </div>
+                <div id="civic-services" href="#" onClick="return activateCivicServices();">Civic Services</div>
             </li>
             <li class="sidebar-brand">
-                <div id="education" href="#!" onclick=
-                "return activateEducation();">
-                    Education
-                </div>
+                <div id="education" href="#" onClick="return activateEducation();">Education</div>
             </li>
             <li class="sidebar-brand">
-                <div id="health" href="#!" onclick=
-                "return activateHealth();">
-                    Health
-                </div>
+                <div id="health" href="#" onClick="return activateHealth();">Health</div>
             </li>
         </ul>
-    </div><!-- /#sidebar-wrapper -->
+    </div>
+    <!-- /#sidebar-wrapper -->
+
     <!-- Start marque -->
-    <div class="marquee">
-        <div id="marquee-default">
-            <img class="image" src="img/_DSC1939.jpg" alt="" height=
-            "806" width="1213">
-            <h1 class="title">City of Chicago</h1><img class=
-            "red-dividing-line" src="img/red-dividing-line.png" alt="">
-            <h2 class="subtitle">The City of Chicago&#39;s Official
-            Site</h2>
-            <h2 class="scroll-down">Scroll Down</h2>
-        </div>
-        <div id="marquee-business" class="marquee-hide">
-            <img class="image" src="img/chicago-business-district.jpg"
-            alt="4288" height="1200" width="1920">
-            <h1 class="title">Chicago Business District</h1><img class=
-            "red-dividing-line" src="img/red-dividing-line.png" alt=""
-            height="10" width="200">
-            <h2 class="subtitle">Think Business. Think Chicago.</h2>
-            <h2 class="scroll-down">Scroll Down</h2>
-        </div>
-        <div id="marquee-culture-recreation" class="marquee-hide">
-            <img class="image" src="img/_DSC4128.jpg" alt="" height=
-            "2848" width="4288">
-            <h1 class="title">Millennium Park</h1><img class=
-            "red-dividing-line" src="img/red-dividing-line.png" alt=""
-            height="10" width="200">
-            <h2 class="subtitle">Out for a Walk on a Spring Day</h2>
-            <h2 class="scroll-down">Scroll Down</h2>
-        </div>
-        <div id="marquee-environment" class="marquee-hide">
-            <img class="image" src="img/_DSC8782.jpg" alt="" height=
-            "4000" width="6000">
-            <h1 class="title">Nature Boardwalk</h1><img class=
-            "red-dividing-line" src="img/red-dividing-line.png" alt=""
-            height="10" width="200">
-            <h2 class="subtitle">Lincoln Park Zoo</h2>
-            <h2 class="scroll-down">Scroll Down</h2>
-        </div>
-        <div id="marquee-housing-development" class="marquee-hide">
-            <img class="image" src="img/jumpcabrinigreen-mirror.jpg"
-            alt="" height="1764" width="2352">
-            <h1 class="title">The Great Chicago Migration
-            Myth</h1><img class="red-dividing-line" src=
-            "img/red-dividing-line.png" alt="" height="10" width="200">
-            <h2 class="subtitle">Part of the Chicago Housing
-            Authority&#39;s Cabrini-Green</h2>
-            <h2 class="scroll-down">Scroll Down</h2>
-        </div>
-        <div id="marquee-social-services" class="marquee-hide">
-            <img class="image" src="img/social-services.jpg" alt=""
-            height="1704" width="2272">
-            <h1 class="title">Chicago Coalition for the
-            Homeless</h1><img class="red-dividing-line" src=
-            "img/red-dividing-line.png" alt="" height="10" width="200">
-            <h2 class="subtitle">Fighting for the human right to
-            housing since 1980</h2>
-            <h2 class="scroll-down">Scroll Down</h2>
-        </div>
-        <div id="marquee-civic-services" class="marquee-hide">
-            <img class="image" src="img/civic-services.jpg.jpg" alt=""
-            height="1000" width="1500">
-            <h1 class="title">Mayor Emanuel Recognizes Civic
-            Leadership</h1><img class="red-dividing-line" src=
-            "img/red-dividing-line.png" alt="" height="10" width="200">
-            <h2 class="subtitle">Highlights the Importance of
-            Volunteerism</h2>
-            <h2 class="scroll-down">Scroll Down</h2>
-        </div>
-        <div id="marquee-education" class="marquee-hide">
-            <img class="image" src="img/education.jpg" alt="" height=
-            "1800" width="2700">
-            <h1 class="title">Educational opportunities in
-            Chicago</h1><img class="red-dividing-line" src=
-            "img/red-dividing-line.png" alt="" height="10" width="200">
-            <h2 class="subtitle">Business Classes hosted by the
-            Department of Business Affairs</h2>
-            <h2 class="scroll-down">Scroll Down</h2>
-        </div>
-        <div id="marquee-health" class="marquee-hide">
-            <img class="image" src="img/health.jpg" alt="" height=
-            "2004" width="3000">
-            <h1 class="title">Gaffney Chicago Medical
-            Center</h1><img class="red-dividing-line" src=
-            "img/red-dividing-line.png" alt="" height="10" width="200">
-            <h2 class="subtitle">Doctors performing a group diagnostic
-            consultation</h2>
-            <h2 class="scroll-down">Scroll Down</h2>
-        </div>
-    </div><!-- End marque-->
-    <!-- Page Content -->
+<div class="marquee">
+    <div id="marquee-default">
+        <img class="image" src="img/_DSC1939.jpg" alt="" height="2848" width="4288">
+        <h1 class="title">City of Chicago</h1><img class=
+        "red-dividing-line" src="img/red-dividing-line.png" alt="">
+        <h2 class="subtitle">The City of Chicago's Official
+        Site</h2>
+        <h2 class="scroll-down">Scroll Down</h2>
+    </div>
+
+    <div id="marquee-business" class="marquee-hide">
+        <img class="image" src="img/chicago-business-district.jpg" alt="4288" height="1200" width="1920">
+        <h1 class="title">Chicago Business District</h1><img class=
+        "red-dividing-line" src="img/red-dividing-line.png" alt="" height="10" width="200">
+        <h2 class="subtitle">Think Business. Think Chicago.</h2>
+        <h2 class="scroll-down">Scroll Down</h2>
+    </div>
+
+    <div id="marquee-culture-recreation" class="marquee-hide">
+        <img class="image" src="img/_DSC4128.jpg" alt="" height="2848" width="4288">
+        <h1 class="title">Millennium Park</h1><img class=
+        "red-dividing-line" src="img/red-dividing-line.png" alt="" height="10" width="200">
+        <h2 class="subtitle">Out for a Walk on a Spring Day</h2>
+        <h2 class="scroll-down">Scroll Down</h2>
+    </div>
+
+    <div id="marquee-environment" class="marquee-hide">
+        <img class="image" src="img/_DSC8782.jpg" alt="" height="4000" width="6000">
+        <h1 class="title">Nature Boardwalk</h1><img class=
+        "red-dividing-line" src="img/red-dividing-line.png" alt="" height="10" width="200">
+        <h2 class="subtitle">Lincoln Park Zoo</h2>
+        <h2 class="scroll-down">Scroll Down</h2>
+    </div>
+
+    <div id="marquee-housing-development" class="marquee-hide">
+        <img class="image" src="img/jumpcabrinigreen-mirror.jpg" alt="" height="1764" width="2352">
+        <h1 class="title">The Great Chicago Migration Myth</h1><img class=
+        "red-dividing-line" src="img/red-dividing-line.png" alt="" height="10" width="200">
+        <h2 class="subtitle">Part of the Chicago Housing Authority's Cabrini-Green</h2>
+        <h2 class="scroll-down">Scroll Down</h2>
+    </div>
+
+    <div id="marquee-social-services" class="marquee-hide">
+        <img class="image" src="img/social-services.jpg" alt="" height="1704" width="2272">
+        <h1 class="title">Chicago Coalition for the Homeless</h1><img class=
+        "red-dividing-line" src="img/red-dividing-line.png" alt="" height="10" width="200">
+        <h2 class="subtitle">Fighting for the human right to housing since 1980</h2>
+        <h2 class="scroll-down">Scroll Down</h2>
+    </div>
+
+    <div id="marquee-civic-services" class="marquee-hide">
+        <img class="image" src="img/civic-services.jpg" alt="" height="2000" width="3000">
+        <h1 class="title">Mayor Emanuel Recognizes Civic Leadership</h1><img class=
+        "red-dividing-line" src="img/red-dividing-line.png" alt="" height="10" width="200">
+        <h2 class="subtitle">Highlights the Importance of Volunteerism</h2>
+        <h2 class="scroll-down">Scroll Down</h2>
+    </div>
+
+    <div id="marquee-education" class="marquee-hide">
+        <img class="image" src="img/education.jpg" alt="" height="1800" width="2700" >
+        <h1 class="title">Educational opportunities in Chicago</h1><img class=
+        "red-dividing-line" src="img/red-dividing-line.png" alt="" height="10" width="200">
+        <h2 class="subtitle">Business Classes hosted by the Department of Business Affairs</h2>
+        <h2 class="scroll-down">Scroll Down</h2>
+    </div>
+
+    <div id="marquee-health" class="marquee-hide">
+        <img class="image" src="img/health.jpg" alt="" height="2004" width="3000">
+        <h1 class="title">Gaffney Chicago Medical Center</h1><img class=
+        "red-dividing-line" src="img/red-dividing-line.png" alt="" height="10" width="200">
+        <h2 class="subtitle">Doctors performing a group diagnostic consultation</h2>
+        <h2 class="scroll-down">Scroll Down</h2>
+    </div>
+</div> <!-- End marque-->
+   <!-- Page Content -->
     <div class="container">
         <!-- Page Header -->
         <div class="row">
@@ -220,13 +176,11 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-4 portfolio-item">
-                <img class="img-responsive" src=
-                "img/mgh-cchi-med-brand-canvas-new.jpg" alt="" height=
-                "328" width="492">
+                <img class="img-responsive" src="img/mgh-cchi-med-brand-canvas-new.jpg" alt="" height="328" width="492">
                 <h3>May 4, 2016</h3>
-                <h3>Mayor Emanuel and CDPH Launch Healthy Chicago
-                Community Seed Grants</h3>
-                <p>As part of the City&#39;s ongoing work to engage and
+                <h3>Mayor Emanuel and CDPH Launch Healthy
+                Chicago Community Seed Grants</h3>
+                <p>As part of the City's ongoing work to engage and
                 invest in neighborhoods, Mayor Rahm Emanuel and the
                 Chicago Department of Public Health (CDPH) announced
                 today the new Healthy Chicago Community Seed Grants,
@@ -236,14 +190,14 @@
                 Chicago 2.0 plan, announced March 29, and will be
                 discussed during of a series of community meetings
                 hosted by CDPH over the next month.</p>
-                <p>&quot;Healthy Chicago 2.0 was designed with our
-                communitie&#39;s needs in mind to expand innovative
+                <p>"Healthy Chicago 2.0 was designed with our
+                communitie's needs in mind to expand innovative
                 health strategies and improve the health and vitality
-                of each of our residents,&quot; said Mayor Emanuel.
-                &quot;These new seed grants follow up on that promise
+                of each of our residents," said Mayor Emanuel.
+                "These new seed grants follow up on that promise
                 by focusing on eliminating inequities and ensuring that
                 every resident has the resources and opportunities
-                necessary to lead a healthy life&quot;</p>
+                necessary to lead a healthy life"</p>
                 <p>Under the new effort, CDPH will award up to six
                 community seed grants, ranging between $10,000 and
                 $20,000, to local non-profit organizations with
@@ -252,16 +206,16 @@
                 closely programs align with the goals of Healthy
                 Chicago 2.0, a data-driven plan that identifies key
                 areas of improvement across the city.</p>
-                <p>&quot;The best way to improve our city&#39;s health
-                is to engage the people who live here,&quot; said CDPH
-                Commissioner Julie Morita, M.D.&quot; By providing seed
+                <p>"The best way to improve our city's health
+                is to engage the people who live here," said CDPH
+                Commissioner Julie Morita, M.D." By providing seed
                 grants and by holding these community meetings, we will
                 work directly with residents to help them improve their
                 communities. We look forward to engaging our residents
                 firsthand on how we can improve services to meet their
                 needs and improve quality of life in their
-                communities.&quot;</p>
-                <p>Building on the success of 2011&#39;s Healthy
+                communities."</p>
+                <p>Building on the success of 2011's Healthy
                 Chicago plan, Healthy Chicago 2.0 provides strategies
                 to address traditional health issues as well as
                 systemic issues associated with poor health - including
@@ -285,61 +239,68 @@
                 <video width="360" controls=""><source src=
                 "video/sky-high-tilt-attraction.mp4" type=
                 "video/mp4"></video>
-                <h3>May 18, 2016</h3>
-                <h3>It's a sky-high birthday party at the top of the Hancock</h3>
-<p>
-The TILT attraction on the 94th floor of Chicago's John Hancock Center is celebrating its birthday the whole month of May. That means 360 Chicago, formerly called the observatory, which is home to TILT will be decked out with birthday decorations.
-</p>
-
-<p>
-Visitors with a May birthday (ID or proof of birthday required) can experience TILT for free this month, saving them a $7 ticket to tip over 30 degrees behind the moveable glass-lined enclosed platform 1,000 feet above Michigan Avenue. They will have to pay for general admission though.
-</p>
-
-<p>
-More than 200,000 guests have visited TILT, which faces south, since it opened last May. Next month, 360 Chicago plans to unveil a renovated café and new sunset viewing area.
-</p>
-
-<p>
-Here are 10 facts about the TILT attraction:
-</p>
-
-<p>
-<b>1</b> - The number of years in operation
-</p>
-
-<p>
-<b>94</b> - Floors above the ground
-</p>
-
-<p>
-<b>200,000+</b> - Visitors checked out TILT in its inaugural year
-</p>
-
-<p>
-<b>8</b> - People can ride at one time
-</p>
-
-<p>
-<b>30</b> - Degrees tilts out
-</p>
-<p>
-<b>$7</b> - Cost to ride TILT
-</p>
-<p>
-<b>$19</b> - Admission to 360 Chicago where TILT is located
-</p>
-</p>
-<b>1,000</b> - Feet above ground
-<p>
-<b>31,000</b> - Pounds of steel
-</p>
-<p>
-<b>3</b> - Layers of tempered, laminated structural glass
-</p>
+                <h3>May 4, 2016</h3>
+                <h3>Chicago, a modern metropolis on the
+                shores of Lake Michigan that's defined by
+                a love for fine art, baseball and the blues</h3>
+                <p>Stroll museums and parks filled with art, and catch
+                live blues any night of the week in
+                Chicago's bustling Downtown district. Or
+                catch a lively sports game in this home to the Cubs and
+                White Sox baseball teams, and the Chicago Bulls
+                basketball team.</p>
+                <p>This metropolis is the third largest city in
+                America, but getting around is easy thanks to the
+                efficient above ground train, the 'L'.
+                Get your bearings from
+                the tallest skyscraper in the US, Willis Tower, which
+                defines the city's skyline. The viewing
+                platform, 1,353 feet (412 meters) above the busy
+                streets, offers unparalleled vistas of Lake Michigan,
+                Navy Pier, and other main attractions.</p>
+                <p>Lincoln Park, just north of downtown, has beaches,
+                sporting grounds and landscaped gardens. Soak up the
+                history of the Windy City at the Chicago History
+                Museum, located on the southern end of the park. Take a
+                stroll through the indoor gardens of the Lincoln Park
+                Conservatory, or spend an afternoon at the Lincoln Park
+                Zoo. This public zoo houses more than 1,000 animals.
+                Brookfield Zoo, 12 miles west of the city center, is
+                more than double the size and features dolphin
+                displays, big cats, a variety of primates and more.</p>
+                <p>Head back into the Loop district downtown for some
+                of the best shopping in the city, along Michigan
+                Avenue's Magnificent Mile.
+                It's a good place for lunch or dinner, or
+                people watching while you sip a coffee or beer. Just
+                south of the Magnificent Mile is the expansive Art
+                Institute of Chicago well worth a visit for its
+                collection of European and American masterpieces that
+                include Monet, Van Gogh, and much more. Nearby is
+                Millennium Park, a meeting place with public art and
+                spectacular summer concerts.</p>
+                <p>Some of America's most influential
+                figures came from Chicago. Visit the Ernest Hemingway
+                Museum and House, where the famous writer was born.
+                Architect Frank Lloyd Wright's first
+                house is in the pretty Oak Park neighborhood (called
+                the Frank Lloyd Wright Home and Studio). He designed
+                many houses and buildings in the area, including Unity
+                Temple, considered one of his best. On your way back
+                into town, stop off at the Garfield Park Conservatory,
+                an urban oasis of rare and exotic plants.</p>
+                <p>No trip to Chicago would be complete without
+                catching a baseball game at the legendary Wrigley
+                Field. At night, head to Navy Pier, packed with lively
+                bars and restaurants. Another option is to head out for
+                a night of blues at one of Chicago's legendary
+                clubs. Check out B.L.U.E.S. near downtown on
+                Chicago's north side or Kingston Mines a few miles
+                north near Lincoln Park. Both of these long established
+                venues have music every night of the week.</p>
             </div>
             <div class="col-md-4 portfolio-item">
-                <img class="img-responsive" src="img/radon-risks.jpg"
-                alt="" height="466" width="700">
+                <img class="img-responsive" src="img/radon-risks.jpg" alt="" height="466" width="700">
                 <h3>January 11, 2016</h3>
                 <h3>Radon Risks Increase During Winter Months, Get Your
                 Home Tested</h3>
@@ -352,14 +313,14 @@ Here are 10 facts about the TILT attraction:
                 to test homes for radon is during cold-weather months
                 when windows are shut and elevated levels of radon are
                 more likely to be detected.</p>
-                <p>&quot;Exposure to radon causes lung cancer in
-                non-smokers and smokers alike,&quot; said CDPH
-                Commissioner Dr. Julie Morita. &quot;We&#39;re calling
+                <p>"Exposure to radon causes lung cancer in
+                non-smokers and smokers alike," said CDPH
+                Commissioner Dr. Julie Morita. "We're calling
                 on every Chicagoan to test their home for radon in
                 order to help protect themselves and their
-                families.&quot;</p>
-                <p>&quot;Low-cost test kits are available at stores
-                throughout the city and online,&quot; said Dr. Cortland
+                families."</p>
+                <p>"Low-cost test kits are available at stores
+                throughout the city and online," said Dr. Cortland
                 Lohff, CDPH medical director for environmental health.
                 &quot;Taking action to test and fix high levels of
                 radon gas is not only a strong investment for your
@@ -368,7 +329,7 @@ Here are 10 facts about the TILT attraction:
                 professional or obtain a test kit is available at
                 http://www.epa.gov/radon or by calling the Cook County
                 Radon Hot Line at (708) 865-6177.</p>
-                <p>You can&#39;t see, smell or taste radon, but it
+                <p>You can't see, smell or taste radon, but it
                 could be present at a dangerous level in your home. In
                 fact, the U.S. Environmental Protection Agency (EPA)
                 estimates that radon causes more than 20,000 deaths
@@ -403,11 +364,10 @@ Here are 10 facts about the TILT attraction:
         <div class="row">
             <div class="col-md-4 portfolio-item">
                 <img class="img-responsive" src=
-                "img/illegal-tobacco-sales.jpeg" alt="" height="466"
-                width="700">
+                "img/illegal-tobacco-sales.jpg" alt="" height="466" width="700">
                 <h3>December 9, 2015</h3>
-                <h3>City Council Passes Ordinance to Combat Illegal
-                Tobacco Sales to Prevent Youth Smoking</h3>
+                <h3>City Council Passes Ordinance to Combat
+                Illegal Tobacco Sales to Prevent Youth Smoking</h3>
                 <p>Mayor Rahm Emanuel today announced the city of
                 Chicago is taking action to keep tobacco out of the
                 hands of youth and encourage residents to live smoke
@@ -415,12 +375,12 @@ Here are 10 facts about the TILT attraction:
                 cracks down on the illegal sale of cigarettes across
                 Chicago by doubling fines for retailers who sell
                 illegal cigarettes.</p>
-                <p>&quot;Keeping illegal cigarettes off of our streets
-                and out of the hands of our youth helps them live
-                longer, healthier lives,&quot; Mayor Emanuel said.
-                &quot;This ordinance is the latest step in our
-                comprehensive effort to reduce smoking among
-                Chicago&#39;s youth.&quot;</p>
+                <p>"Keeping illegal cigarettes off of our
+                streets and out of the hands of our youth helps them
+                live longer, healthier lives," Mayor Emanuel
+                said. "This ordinance is the latest step
+                in our comprehensive effort to reduce smoking among
+                Chicago's youth."</p>
                 <p>The new ordinance increases fines on retailers who
                 sell illegal cigarettes from $1,000 to $2,000 for the
                 first offense when fewer than 40 unstamped tobacco
@@ -442,8 +402,9 @@ Here are 10 facts about the TILT attraction:
                 the state stamp but not the city/county stamp. Since
                 the beginning of the year, city inspectors have
                 conducted six confiscations where more than 250 packs
-                of cigarettes didn&#39;t have the required stamps for a
-                total of approximately $33,000 in fines.</p>
+                of cigarettes didn't have the required
+                stamps for a total of approximately $33,000 in
+                fines.</p>
                 <p>Under Mayor Emanuel, Chicago has become a national
                 leader in tobacco cessation by launching an innovative
                 array of programs, laws and tax policies. Chicago has
@@ -453,30 +414,30 @@ Here are 10 facts about the TILT attraction:
                 addition to revenue on fines introduced today, the city
                 expects to collect $21.6 million in cigarette tax in
                 2016.</p>
-                <p>&quot;We were seeing a pattern where cigarettes had
-                the state tax stamp, but not the city or county stamp,
-                so business owners were skirting felony charges,&quot;
-                BACP Commissioner Maria Guerra Lapacek. &quot;This
-                tough ordinance is designed to deter this act because
-                even one violation is one too many. Doubling the fines
-                for tobacco violators continues to send a strong
-                message to irresponsible retailers who are bent to on
-                breaking the law.&quot;</p>
+                <p>"We were seeing a pattern where
+                cigarettes had the state tax stamp, but not the city or
+                county stamp, so business owners were skirting felony
+                charges," BACP Commissioner Maria Guerra
+                Lapacek. "This tough ordinance is designed
+                to deter this act because even one violation is one too
+                many. Doubling the fines for tobacco violators
+                continues to send a strong message to irresponsible
+                retailers who are bent to on breaking the
+                law."</p>
                 <p>Under Mayor Emanuel, Chicago has become a national
                 leader in tobacco cessation. Since the Mayor first took
                 office, youth smoking has decreased to an all-time low.
-                According to the CDC&#39;s most recent numbers, 10.7
-                percent of Chicago high school students have reported
-                smoking, down from 13.6 percent in 2011 and 24.6
-                percent in 2001.</p>
+                According to the CDC's most recent
+                numbers, 10.7 percent of Chicago high school students
+                have reported smoking, down from 13.6 percent in 2011
+                and 24.6 percent in 2001.</p>
             </div>
             <div class="col-md-4 portfolio-item">
                 <img class="img-responsive" src=
-                "img/flu-vaccine-clinics.jpg" alt="" height="466"
-                width="700">
+                "img/flu-vaccine-clinics.jpg" alt="" height="466" width="700">
                 <h3>December 3, 2015</h3>
-                <h3>CDPH Hosts End-of-Year Flu Vaccine Clinics for
-                Vaccinate Illinois Week</h3>
+                <h3>CDPH Hosts End-of-Year Flu Vaccine
+                Clinics for Vaccinate Illinois Week</h3>
                 <p>The Chicago Department of Public Health (CDPH) is
                 once again teaming up with health departments and
                 healthcare organizations throughout Illinois to
@@ -493,11 +454,11 @@ Here are 10 facts about the TILT attraction:
                 recommendations for flu preparedness. VIW grew out of
                 Vaccinate Chicago week, which was first launched by
                 CDPH in 2012.</p>
-                <p>&quot;It&#39;s not too late to get a flu shot,&quot;
-                said CDPH Commissioner Julie Morita, MD. &quot;Flu
-                season typically peaks in January and February. Get
-                vaccinated now to protect yourself, your friends and
-                your family from illness.&quot;</p>
+                <p>"It's not too late to get a flu shot," said
+                CDPH Commissioner Julie Morita, MD. "Flu season
+                typically peaks in January and February. Get vaccinated
+                now to protect yourself, your friends and your family
+                from illness."</p>
                 <p>During the fourth-annual VIW, next week Chicago
                 residents will see and hear coordinated digital, social
                 media, print and broadcast advertisements reminding
@@ -525,8 +486,8 @@ Here are 10 facts about the TILT attraction:
                 reduce your risk by:</p>
                 <ul>
                     <li>Washing your hands regularly with soap and
-                    water. If soap and water are not available, use an
-                    alcohol-based hand sanitizer.</li>
+                    water. If soap and water are not available,
+                    use an alcohol-based hand sanitizer.</li>
                     <li>Avoiding touching your eyes, nose or
                     mouth.</li>
                     <li>Avoiding close contact with sick people. If you
@@ -540,16 +501,15 @@ Here are 10 facts about the TILT attraction:
                 and winter months. In observance of VIW this year, the
                 Blue Cross/Blue Shield of Illinois headquarters in
                 Chicago will light up the building with the message
-                &quot;Get a flu shot&quot; from December 4 through
+                "Get a flu shot" from December 4 through
                 6.</p>
             </div>
             <div class="col-md-4 portfolio-item">
                 <img class="img-responsive" src=
-                "img/spray-insecticide.jpg" alt="" height="465" width=
-                "700">
+                "img/spray-insecticide.jpg" alt="" height="465" width="700">
                 <h3>September 2, 2015</h3>
-                <h3>City to Spray Insecticide Wednesday to Kill
-                Mosquitoes to Fight West Nile Virus</h3>
+                <h3>City to Spray Insecticide Wednesday to
+                Kill Mosquitoes to Fight West Nile Virus</h3>
                 <p>The Chicago Department of Public Health (CDPH) is
                 continuing its efforts against West Nile virus by
                 spraying to kill adult mosquitoes in parts of the
@@ -563,22 +523,22 @@ Here are 10 facts about the TILT attraction:
                 affected areas to notify residents that the spraying
                 will occur.</p>
                 <p>The material being used to control the adult
-                mosquitoes, Zenivex, will be applied at a rate of 1.5
-                fluid ounces per acre. It is approved for use by the
-                U.S. Environmental Protection Agency and is used to
+                mosquitoes, Zenivex, will be applied at a rate
+                of 1.5 fluid ounces per acre. It is approved for use by
+                the U.S. Environmental Protection Agency and is used to
                 control mosquitoes in outdoor residential and
                 recreational areas.</p>
-                <p>Zenivex has been used effectively to control
-                disease-carrying mosquitoes and is non-persistent,
-                decomposing rapidly in the environment. The rapid
-                degradation of this product makes it an excellent
-                choice for control of West Nile virus-carrying
-                mosquitoes. The spray will be applied by licensed
-                mosquito abatement technicians from Vector Disease
-                Control International, a leader in the mosquito control
-                industry. Guiding the crews through the streets will be
-                supervisors from the Chicago Department of Streets and
-                Sanitation.</p>
+                <p>Zenivex has been used effectively to
+                control disease-carrying mosquitoes and is
+                non-persistent, decomposing rapidly in the environment.
+                The rapid degradation of this product makes it an
+                excellent choice for control of West Nile
+                virus-carrying mosquitoes. The spray will be applied by
+                licensed mosquito abatement technicians from Vector
+                Disease Control International, a leader in the mosquito
+                control industry. Guiding the crews through the streets
+                will be supervisors from the Chicago Department of
+                Streets and Sanitation.</p>
                 <p>While the spray is not harmful to people or pets and
                 is routinely sprayed in residential areas across the
                 nation, residents of targeted neighborhoods may choose
@@ -619,26 +579,27 @@ Here are 10 facts about the TILT attraction:
         <div class="row">
             <div class="col-md-4 portfolio-item">
                 <img class="img-responsive" src=
-                "img/city-wide-composting.jpg" alt="" height="467"
-                width="700">
+                "img/city-wide-composting.jpg" alt="" height="467" width="700">
                 <h3>July 29, 2015</h3>
-                <h3>City Council Approves Ordinance to Expand Citywide
-                Composting Program</h3>
-                <p>City Council today approved Mayor Emanue&#39;s
-                ordinance to expand composting operations at community
-                gardens and urban farms across Chicago, as well as
-                create a citywide community garden registry and urban
-                farm accessory composting operation permit. The goal of
-                the program is to expand the type of allowable
-                compostable materials at both community gardens and
-                urban farms, while implementing common sense measures
-                to ensure public health standards are maintained.</p>
-                <p>&quot;Urban agriculture is an important piece in
-                making our communities more environmentally friendly
-                and sustainable,&quot; said Mayor Rahm Emanuel.
-                &quot;Expanding composting is an easy way to support
-                our neighborhoods in growing their own fresh fruits and
-                vegetables right in their own backyards.&quot;</p>
+                <h3>City Council Approves Ordinance to
+                Expand Citywide Composting Program</h3>
+                <p>City Council today approved Mayor
+                Emanue's ordinance to expand composting
+                operations at community gardens and urban farms across
+                Chicago, as well as create a citywide community garden
+                registry and urban farm accessory composting operation
+                permit. The goal of the program is to expand the type
+                of allowable compostable materials at both community
+                gardens and urban farms, while implementing common
+                sense measures to ensure public health standards are
+                maintained.</p>
+                <p>"Urban agriculture is an important
+                piece in making our communities more environmentally
+                friendly and sustainable," said Mayor Rahm
+                Emanuel. "Expanding composting is an easy
+                way to support our neighborhoods in growing their own
+                fresh fruits and vegetables right in their own
+                backyards."</p>
                 <p>In addition to landscape waste, such as grass or
                 shrubbery clippings, community gardens will now be
                 allowed to compost limited organic waste, including
@@ -650,27 +611,29 @@ Here are 10 facts about the TILT attraction:
                 urban farms to apply for a permit with the Chicago
                 Department of Public Health to compost livestock waste,
                 in addition to landscape and limited organic waste.</p>
-                <p>&quot;Composting supports the reuse of material that
-                would otherwise be considered waste and sent to
-                landfills,&quot; said Commissioner Julie Morita,
-                Chicago Department of Public Health. &quot;I look
-                forward to implementing these new policies and other
-                best practices with our community stakeholders in the
-                upcoming composting season.&quot;</p>
+                <p>"Composting supports the reuse of
+                material that would otherwise be considered waste and
+                sent to landfills," said Commissioner Julie
+                Morita, Chicago Department of Public Health.
+                "I look forward to implementing these new
+                policies and other best practices with our community
+                stakeholders in the upcoming composting
+                season."</p>
                 <p>The ordinance was drafted with input from local
                 urban agriculture and environmental stakeholders and
                 the City will continue to work with these partners as
                 the community is educated about new composting
                 opportunities.</p>
-                <p>&quot;We applaud Mayor Emanuel for introducing this
-                ordinance, created with feedback from advocates and
-                cooperative work with City departments,&quot; said Jen
-                Walling, Executive Director, Illinois Environmental
-                Council. &quot;This ordinance positions Chicago as one
+                <p>"We applaud Mayor Emanuel for
+                introducing this ordinance, created with feedback from
+                advocates and cooperative work with City
+                departments," said Jen Walling, Executive
+                Director, Illinois Environmental Council.
+                "This ordinance positions Chicago as one
                 of the top cities in the nation for small scale
                 composting sites, protecting the environment and
                 introducing new tools for urban farmers and
-                gardeners.&quot;</p>
+                gardeners."</p>
                 <p>Expanding composting is part of a larger strategy to
                 support urban agriculture efforts in Chicago. In 2011,
                 Mayor Emanuel passed the Urban Farm ordinance,
@@ -686,55 +649,54 @@ Here are 10 facts about the TILT attraction:
             </div>
             <div class="col-md-4 portfolio-item">
                 <img class="img-responsive" src=
-                "img/divvy-bike-station.jpg" alt="" height="468" width=
-                "700">
+                "img/divvy-bike-station.jpg" alt="" height="468" width="700">
                 <h3>July 7, 2015</h3>
-                <h3>Mayor Emanuel Announces Divvy Expanding Access to
-                Popular Bike Share System</h3>
+                <h3>Mayor Emanuel Announces Divvy Expanding
+                Access to Popular Bike Share System</h3>
                 <p>Mayor Rahm Emanuel announced today that Divvy is
                 breaking down barriers to access the popular bike-share
                 program by offering reduced-cost annual memberships to
                 residents. Under the new initiative, Divvy for Everyone
                 (D4E), Chicago residents with incomes below 300 percent
-                of the federal poverty level who don&#39;t have a
+                of the federal poverty level who don't have a
                 credit or debit card will qualify for a $5 annual Divvy
                 membership, compared to the regular $75 price. The
                 effort follows a major expansion of Divvy to new
                 neighborhoods earlier this year, and a record-breaking
                 weekend for ridership over the Fourth of July.</p>
-                <p>&quot;In two years Divvy has grown to more
+                <p>"In two years Divvy has grown to more
                 neighborhoods and become a transit option for more
                 residents, but cost was still a barrier for too many
-                people,&quot; said Mayor Emanuel. &quot;Divvy only
+                people," said Mayor Emanuel. "Divvy only
                 works when everyone has a chance to use it. Today we
                 are bridging gaps by offering $5 annual memberships so
                 more residents can benefit from Divvy, regardless of
-                their ability to pay.&quot;</p>
+                their ability to pay."</p>
                 <p>The D4E program is available to Chicago residents
                 who have a maximum combined household income of 300
                 percent of the federal poverty level. D4E provides a
                 one-time one-year membership for $5 with no credit or
                 debit card required. Applicants must appear in person
                 at any of five Local Initiatives Support Corporation
-                (LISC) Financial Opportunity Centers - located in
-                Bronzeville, Englewood, East Garfield Park, Humboldt
-                Park and Ravenswood - and provide proof of income and
-                Chicago residency. They will be charged $5 if found
-                qualified and will be issued a Divvy member key
-                on-site.</p>
+                (LISC) Financial Opportunity Centers -
+                located in Bronzeville, Englewood, East Garfield Park,
+                Humboldt Park and Ravenswood - and
+                provide proof of income and Chicago residency. They
+                will be charged $5 if found qualified and will be
+                issued a Divvy member key on-site.</p>
                 <p>The City is exploring a number of options for people
                 to be able to continue their memberships at full price
                 after the initial year, these include payment plans,
                 cash payment options, and a pathway to credit-building
                 and financial empowerment programs with LISC Financial
                 Opportunity Centers.</p>
-                <p>&quot;As a longtime advocate for bike usage in the
+                <p>"As a longtime advocate for bike usage in the
                 Third Ward -- more specifically in Bronzeville -- I am
-                proud to support the Divvy for Everyone program,&quot;
-                said 3rd Ward Alderman Pat Dowell. &quot;This
+                proud to support the Divvy for Everyone program,"
+                said 3rd Ward Alderman Pat Dowell. "This
                 partnership between CDOT, Divvy, and community agencies
                 allows the usage of Divvy Bikes to be more affordable
-                for residents across the City of Chicago.&quot;</p>
+                for residents across the City of Chicago."</p>
                 <p>Divvy is working with two local organizations on D4E
                 outreach efforts: Slow Roll Chicago and Go Bronzeville.
                 Slow Roll Chicago, which dedicated to building a
@@ -742,25 +704,26 @@ Here are 10 facts about the TILT attraction:
                 Chicago, is conducting citywide outreach; and Go
                 Bronzeville is focused on building local awareness in
                 the Bronzeville community.</p>
-                <p>&quot;Convenient and affordable transportation is a
-                lynchpin to quality of life,&quot; said Rebekah
-                Scheinfeld, Commissioner of the Chicago Department of
-                Transportation (CDOT), which manages Divvy. &quot;Divvy
-                is a transportation resource that can help working
-                families save money and can often make the difference
-                in terms of providing crucial access to jobs. We&#39;re
-                very excited to be able to expand access to Divvy
-                through the D4E Program.&quot;</p>
+                <p>"Convenient and affordable
+                transportation is a lynchpin to quality of
+                life," said Rebekah Scheinfeld, Commissioner of
+                the Chicago Department of Transportation (CDOT), which
+                manages Divvy. "Divvy is a transportation
+                resource that can help working families save money and
+                can often make the difference in terms of providing
+                crucial access to jobs. We're very
+                excited to be able to expand access to Divvy through
+                the D4E Program."</p>
             </div>
             <div class="col-md-4 portfolio-item">
                 <img class="img-responsive" src=
-                "img/anti-viloence-report.jpg" alt="" height="468"
-                width="700">
+                "img/anti-viloence-report.jpg" alt="" height="468" width="700">
                 <h3>December 16, 2014</h3>
-                <h3>Mayor&#39;s Commission for a Safer Chicago Releases
-                Collaborative Anti-Violence Report</h3>
+                <h3>Mayor's Commission for a Safer
+                Chicago Releases Collaborative Anti-Violence
+                Report</h3>
                 <p>Mayor Rahm Emanuel today joined the members of the
-                Mayor&#39;s Commission for a Safer Chicago as they
+                Mayor's Commission for a Safer Chicago as they
                 presented their report and a series of proposals to
                 address youth violence. The Commission is an outgrowth
                 of a series of three roundtable forums held this
@@ -768,28 +731,28 @@ Here are 10 facts about the TILT attraction:
                 groups and community organizations gathered to discuss
                 joint efforts to combat gun violence and strengthen
                 communities.</p>
-                <p>&quot;The powerful work being done between city
+                <p>"The powerful work being done between city
                 government, community leaders, faith leaders and youth
                 is a testament to the fact that the best ideas
-                don&#39;t necessarily come from city hall,&quot; said
-                Mayor Emanuel. &quot;Together we have taken important
+                don't necessarily come from city hall," said
+                Mayor Emanuel. "Together we have taken important
                 steps forward, and I am committed to making sure the
                 Commission for a Safer Chicago is a permanent fixture
                 in youth violence prevention because their input
                 reflects the wisdom and voices of people in
-                neighborhoods throughout Chicago.&quot;</p>
-                <p>The Mayor&#39;s Commission for a Safer Chicago
+                neighborhoods throughout Chicago."</p>
+                <p>The Mayor's Commission for a Safer Chicago
                 brings together over 130 City staff, community and
                 faith leaders, practitioners, subject matter experts,
                 parents, and youth, to provide tangible solutions to
                 address youth violence. The group also engaged more
                 than 200 youth from 15 Chicago communities in moderated
-                discussions, ensure young people&#39;s ideas and
+                discussions, ensure young people's ideas and
                 feedback are part of the solutions developed.</p>
-                <p>This report, the Commission&#39;s first, is the
+                <p>This report, the Commission's first, is the
                 result of intensive collaborative work throughout the
                 fall of 2014. The Commission was tasked with updating
-                for 2015 the City&#39;s strategic plan for youth
+                for 2015 the City's strategic plan for youth
                 violence prevention, with recommendations that build on
                 current investments and leverage existing City and
                 community resources. In keeping with its shared belief
@@ -797,29 +760,29 @@ Here are 10 facts about the TILT attraction:
                 Commission focused for this report on strategies
                 designed to identify and intervene with youth at risk
                 for becoming involved in violence.</p>
-                <p>&quot;This has been such a great experience,&quot;
+                <p>"This has been such a great experience,"
                 said Evelyn Diaz, Commissioner of the Department of
-                Family and Support Services. &quot;People from across
+                Family and Support Services. "People from across
                 our city came together not just to talk about the
                 problem of violence, but to roll up their sleeves and
                 work side by the side with the City to develop
-                meaningful solutions.&quot;</p>
+                meaningful solutions."</p>
                 <p>The Commission made recommendations in five issue
                 areas, each designed to address the risk factors and
                 root causes of youth violence - youth employment,
                 health and healing, crating restorative school
                 communities, safety and justice, and safe spaces and
                 activities.</p>
-                <p>&quot;Violence prevention isn&#39;t just the
-                city&#39;s responsibility, it is all of our
-                responsibility,&quot; said Rev. Dr. L. Bernard Jakes.
-                &quot;I really think this is a call to action.
+                <p>"Violence prevention isn't just the
+                city's responsibility, it is all of our
+                responsibility," said Rev. Dr. L. Bernard Jakes.
+                "I really think this is a call to action.
                 Whatever, your passion, wherever in the City you live,
                 there is a way to be involved in the solutions that are
                 part of this plan. We thank the Mayor for convening
                 this group, for listening to what the community has to
                 say, and for working with us to implement these
-                ideas.&quot;</p>
+                ideas."</p>
             </div>
         </div><!-- /.row -->
         <hr>
@@ -836,9 +799,10 @@ Here are 10 facts about the TILT attraction:
     </div><!-- /.container -->
     <!-- jQuery -->
     <script src="js/jquery.js">
-    </script> 
+    </script>
     <script src="js/main.js">
-    </script> <!-- Bootstrap Core JavaScript -->
+    </script>
+    <!-- Bootstrap Core JavaScript -->
      
     <script src="js/bootstrap.min.js">
     </script>
